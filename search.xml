@@ -29,7 +29,7 @@
       </tags>
   </entry>
   <entry>
-    <title>01-start-neovim</title>
+    <title>NeoVim的安装与自定义扩展</title>
     <url>/2023/01/22/01-start-neovim/</url>
     <content><![CDATA[<h2 id="安装-neovim"><a href="#安装-neovim" class="headerlink" title="安装 neovim"></a>安装 neovim</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install neovim</span><br></pre></td></tr></table></figure>
 <p>官方仓库地址：<br><a href="https://github.com/neovim/neovim">GitHub - neovim&#x2F;neovim: Vim-fork focused on extensibility and usability</a></p>
