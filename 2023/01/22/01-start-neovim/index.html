@@ -22,28 +22,37 @@
     var CONFIG = {"hostname":"yichaodeng.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Yichao&#39;s Blog">
-<meta property="og:url" content="https://yichaodeng.github.io/index.html">
+  <meta name="description" content="安装 neovim1brew install neovim 官方仓库地址：GitHub - neovim&#x2F;neovim: Vim-fork focused on extensibility and usability">
+<meta property="og:type" content="article">
+<meta property="og:title" content="01-start-neovim">
+<meta property="og:url" content="https://yichaodeng.github.io/2023/01/22/01-start-neovim/index.html">
 <meta property="og:site_name" content="Yichao&#39;s Blog">
+<meta property="og:description" content="安装 neovim1brew install neovim 官方仓库地址：GitHub - neovim&#x2F;neovim: Vim-fork focused on extensibility and usability">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/37CF0403-0B65-4621-B551-080594393D67_2/d1QYMxxHsSWSUyJQK8LiLLMIg6INadPWcGbzPRmI4d0z/Image.png">
+<meta property="og:image" content="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/3462E238-A221-4FDD-857E-25AEF613DF5E_2/PCtNeZ8SgF74q856rtrhvTmM1uNwKdH2zMVgR2cKOSMz/Image.png">
+<meta property="og:image" content="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/2EC81812-DDD5-4E9B-9144-F9C544B50986_2/MY5kuG2qr2UCecstd8kSuAecy0T1gtDlbf9eVAJcY9sz/Image.png">
+<meta property="article:published_time" content="2023-01-21T17:35:22.000Z">
+<meta property="article:modified_time" content="2023-01-21T17:41:02.971Z">
 <meta property="article:author" content="Yichao">
+<meta property="article:tag" content="MacOS">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/37CF0403-0B65-4621-B551-080594393D67_2/d1QYMxxHsSWSUyJQK8LiLLMIg6INadPWcGbzPRmI4d0z/Image.png">
 
-<link rel="canonical" href="https://yichaodeng.github.io/">
+<link rel="canonical" href="https://yichaodeng.github.io/2023/01/22/01-start-neovim/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Yichao's Blog</title>
+  <title>01-start-neovim | Yichao's Blog</title>
   
 
 
@@ -186,9 +195,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -204,10 +214,9 @@
       <meta itemprop="name" content="Yichao's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/01/22/01-start-neovim/" class="post-title-link" itemprop="url">01-start-neovim</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          01-start-neovim
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -229,7 +238,14 @@
                 </span>
             </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -254,127 +270,73 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="安装-neovim"><a href="#安装-neovim" class="headerlink" title="安装 neovim"></a>安装 neovim</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install neovim</span><br></pre></td></tr></table></figure>
+        <h2 id="安装-neovim"><a href="#安装-neovim" class="headerlink" title="安装 neovim"></a>安装 neovim</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install neovim</span><br></pre></td></tr></table></figure>
 <p>官方仓库地址：<br><a target="_blank" rel="noopener" href="https://github.com/neovim/neovim">GitHub - neovim&#x2F;neovim: Vim-fork focused on extensibility and usability</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/01/22/01-start-neovim/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<span id="more"></span>
+
+<h2 id="安装后检查事项"><a href="#安装后检查事项" class="headerlink" title="安装后检查事项"></a>安装后检查事项</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">nvim <span class="comment"># 打开nvim</span></span><br><span class="line"></span><br><span class="line">:checkhealth <span class="comment"># 检查健康，是否有不正常项</span></span><br><span class="line"></span><br><span class="line">:ehco has(<span class="string">&#x27;python3&#x27;</span>)	<span class="comment"># return 0 or 1</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>如果出现 <code>python</code> 相关的 warning 如provider，下图是正常的状态：</p>
+</blockquote>
+<p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/37CF0403-0B65-4621-B551-080594393D67_2/d1QYMxxHsSWSUyJQK8LiLLMIg6INadPWcGbzPRmI4d0z/Image.png" alt="Image.png"></p>
+<blockquote>
+<p>那么可以通过 <code>conda</code>  的方式给它配置 <code>python</code> 环境</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install -c conda-forge neovim</span><br></pre></td></tr></table></figure>
+
+<h2 id="了解-nvim-插件"><a href="#了解-nvim-插件" class="headerlink" title="了解 nvim 插件"></a>了解 nvim 插件</h2><p>官方仓库地址：<br><a target="_blank" rel="noopener" href="https://github.com/rockerBOO/awesome-neovim">GitHub - rockerBOO&#x2F;awesome-neovim: Collections of awesome neovim plugins.</a></p>
+<h2 id="了解一个-UP-主的客制化"><a href="#了解一个-UP-主的客制化" class="headerlink" title="了解一个 UP 主的客制化"></a>了解一个 UP 主的客制化</h2><ul>
+<li><p>B站 地址<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vv4y1D7mu/?spm_id_from=pageDriver&vd_source=4acd0002587c68d48e302a17df092fe9">NVIM系列 第1篇 lua配置简单入门+packer.nvim插件管理思路_哔哩哔哩_bilibili</a></p>
+</li>
+<li><p>Github地址<br><a target="_blank" rel="noopener" href="https://github.com/yaocccc/nvim">GitHub - yaocccc&#x2F;nvim</a></p>
+</li>
+<li><p>Blog 地址<br><a target="_blank" rel="noopener" href="https://yaocc.cc/">cc</a></p>
+</li>
+</ul>
+<h2 id="安装-packer-包管理工具"><a href="#安装-packer-包管理工具" class="headerlink" title="安装 packer 包管理工具"></a>安装 packer 包管理工具</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth 1 https://github.com/wbthomason/packer.nvim\</span><br><span class="line"> ~/.local/share/nvim/site/pack/packer/start/packer.nvim</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-JetBrains-mono-nerd-font-字体"><a href="#安装-JetBrains-mono-nerd-font-字体" class="headerlink" title="安装 JetBrains-mono-nerd-font 字体"></a>安装 JetBrains-mono-nerd-font 字体</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew tap homebrew/cask-fonts</span><br><span class="line">brew install --cask font-jetbrains-mono-nerd-font</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/ryanoasis/nerd-fonts.git --depth 1</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> nerd-fonts</span><br><span class="line"> </span><br><span class="line">./install.sh</span><br></pre></td></tr></table></figure>
+
+<p>安装完成之后 <code>终端</code> 设置中更换字体</p>
+<p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/3462E238-A221-4FDD-857E-25AEF613DF5E_2/PCtNeZ8SgF74q856rtrhvTmM1uNwKdH2zMVgR2cKOSMz/Image.png" alt="Image.png"></p>
+<h2 id="安装-nodejs"><a href="#安装-nodejs" class="headerlink" title="安装 nodejs"></a>安装 nodejs</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">asdf add plugin nodejs</span><br><span class="line"></span><br><span class="line">asdf list all nodejs</span><br><span class="line"></span><br><span class="line">asdf install nodejs 19.4.0</span><br><span class="line"></span><br><span class="line">asdf global nodejs 19.4.0</span><br><span class="line"></span><br><span class="line">node -v</span><br></pre></td></tr></table></figure>
+
+<h2 id="克隆-up主-仓库"><a href="#克隆-up主-仓库" class="headerlink" title="克隆 up主 仓库"></a>克隆 up主 仓库</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.config/</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/yaocccc/nvim</span><br></pre></td></tr></table></figure>
+
+<h2 id="打开-nvim-执行包同步"><a href="#打开-nvim-执行包同步" class="headerlink" title="打开 nvim 执行包同步"></a>打开 nvim 执行包同步</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">nvim</span><br><span class="line"></span><br><span class="line">:PackerSync</span><br></pre></td></tr></table></figure>
+
+<h2 id="查看完成效果"><a href="#查看完成效果" class="headerlink" title="查看完成效果"></a>查看完成效果</h2><p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/2EC81812-DDD5-4E9B-9144-F9C544B50986_2/MY5kuG2qr2UCecstd8kSuAecy0T1gtDlbf9eVAJcY9sz/Image.png" alt="Image.png"></p>
+
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yichaodeng.github.io/2023/01/21/00-start-hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpeg">
-      <meta itemprop="name" content="Yichao">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Yichao's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2023/01/21/00-start-hexo/" class="post-title-link" itemprop="url">Hexo博客部署与NexT主题的使用</a>
-        </h2>
+          <div class="post-tags">
+              <a href="/tags/MacOS/" rel="tag"><i class="fa fa-tag"></i> MacOS</a>
+          </div>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-01-21 03:00:00" itemprop="dateCreated datePublished" datetime="2023-01-21T03:00:00+08:00">2023-01-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-01-22 01:42:22" itemprop="dateModified" datetime="2023-01-22T01:42:22+08:00">2023-01-22</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>781</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. global (my choice)</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"><span class="comment"># 2. local</span></span><br><span class="line">npm install hexo</span><br><span class="line"><span class="comment"># choose 1 or 2 -&gt; install</span></span><br><span class="line"><span class="comment"># 3. uninstall</span></span><br><span class="line">npm uninstall hexo</span><br></pre></td></tr></table></figure>
-<p>官方参考：<br><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo官方文档</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/01/21/00-start-hexo/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/01/21/00-start-hexo/" rel="prev" title="Hexo博客部署与NexT主题的使用">
+      <i class="fa fa-chevron-left"></i> Hexo博客部署与NexT主题的使用
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -427,6 +389,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-neovim"><span class="nav-number">1.</span> <span class="nav-text">安装 neovim</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%90%8E%E6%A3%80%E6%9F%A5%E4%BA%8B%E9%A1%B9"><span class="nav-number">2.</span> <span class="nav-text">安装后检查事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%86%E8%A7%A3-nvim-%E6%8F%92%E4%BB%B6"><span class="nav-number">3.</span> <span class="nav-text">了解 nvim 插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%AA-UP-%E4%B8%BB%E7%9A%84%E5%AE%A2%E5%88%B6%E5%8C%96"><span class="nav-number">4.</span> <span class="nav-text">了解一个 UP 主的客制化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-packer-%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7"><span class="nav-number">5.</span> <span class="nav-text">安装 packer 包管理工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-JetBrains-mono-nerd-font-%E5%AD%97%E4%BD%93"><span class="nav-number">6.</span> <span class="nav-text">安装 JetBrains-mono-nerd-font 字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-nodejs"><span class="nav-number">7.</span> <span class="nav-text">安装 nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%8B%E9%9A%86-up%E4%B8%BB-%E4%BB%93%E5%BA%93"><span class="nav-number">8.</span> <span class="nav-text">克隆 up主 仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%93%E5%BC%80-nvim-%E6%89%A7%E8%A1%8C%E5%8C%85%E5%90%8C%E6%AD%A5"><span class="nav-number">9.</span> <span class="nav-text">打开 nvim 执行包同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C"><span class="nav-number">10.</span> <span class="nav-text">查看完成效果</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

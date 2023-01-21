@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://yichaodeng.github.io/2023/01/22/01-start-neovim/</loc>
+    
+    <lastmod>2023-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yichaodeng.github.io/lib/pace/README.html</loc>
     
     <lastmod>2023-01-21</lastmod>
@@ -46,15 +55,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://yichaodeng.github.io/2023/01/20/hello-world/</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://yichaodeng.github.io/</loc>
@@ -71,10 +71,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://yichaodeng.github.io/tags/MacOS/</loc>
+    <lastmod>2023-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://yichaodeng.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-01-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yichaodeng.github.io/categories/MacOS/</loc>
     <lastmod>2023-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

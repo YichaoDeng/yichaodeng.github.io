@@ -29,23 +29,52 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/01/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+    <title>01-start-neovim</title>
+    <url>/2023/01/22/01-start-neovim/</url>
+    <content><![CDATA[<h2 id="安装-neovim"><a href="#安装-neovim" class="headerlink" title="安装 neovim"></a>安装 neovim</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install neovim</span><br></pre></td></tr></table></figure>
+<p>官方仓库地址：<br><a href="https://github.com/neovim/neovim">GitHub - neovim&#x2F;neovim: Vim-fork focused on extensibility and usability</a></p>
 <span id="more"></span>
 
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="安装后检查事项"><a href="#安装后检查事项" class="headerlink" title="安装后检查事项"></a>安装后检查事项</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvim <span class="comment"># 打开nvim</span></span><br><span class="line"></span><br><span class="line">:checkhealth <span class="comment"># 检查健康，是否有不正常项</span></span><br><span class="line"></span><br><span class="line">:ehco has(<span class="string">&#x27;python3&#x27;</span>)	<span class="comment"># return 0 or 1</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>如果出现 <code>python</code> 相关的 warning 如provider，下图是正常的状态：</p>
+</blockquote>
+<p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/37CF0403-0B65-4621-B551-080594393D67_2/d1QYMxxHsSWSUyJQK8LiLLMIg6INadPWcGbzPRmI4d0z/Image.png" alt="Image.png"></p>
+<blockquote>
+<p>那么可以通过 <code>conda</code>  的方式给它配置 <code>python</code> 环境</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda install -c conda-forge neovim</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="了解-nvim-插件"><a href="#了解-nvim-插件" class="headerlink" title="了解 nvim 插件"></a>了解 nvim 插件</h2><p>官方仓库地址：<br><a href="https://github.com/rockerBOO/awesome-neovim">GitHub - rockerBOO&#x2F;awesome-neovim: Collections of awesome neovim plugins.</a></p>
+<h2 id="了解一个-UP-主的客制化"><a href="#了解一个-UP-主的客制化" class="headerlink" title="了解一个 UP 主的客制化"></a>了解一个 UP 主的客制化</h2><ul>
+<li><p>B站 地址<br><a href="https://www.bilibili.com/video/BV1vv4y1D7mu/?spm_id_from=pageDriver&vd_source=4acd0002587c68d48e302a17df092fe9">NVIM系列 第1篇 lua配置简单入门+packer.nvim插件管理思路_哔哩哔哩_bilibili</a></p>
+</li>
+<li><p>Github地址<br><a href="https://github.com/yaocccc/nvim">GitHub - yaocccc&#x2F;nvim</a></p>
+</li>
+<li><p>Blog 地址<br><a href="https://yaocc.cc/">cc</a></p>
+</li>
+</ul>
+<h2 id="安装-packer-包管理工具"><a href="#安装-packer-包管理工具" class="headerlink" title="安装 packer 包管理工具"></a>安装 packer 包管理工具</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth 1 https://github.com/wbthomason/packer.nvim\</span><br><span class="line"> ~/.local/share/nvim/site/pack/packer/start/packer.nvim</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="安装-JetBrains-mono-nerd-font-字体"><a href="#安装-JetBrains-mono-nerd-font-字体" class="headerlink" title="安装 JetBrains-mono-nerd-font 字体"></a>安装 JetBrains-mono-nerd-font 字体</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew tap homebrew/cask-fonts</span><br><span class="line">brew install --cask font-jetbrains-mono-nerd-font</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/ryanoasis/nerd-fonts.git --depth 1</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> nerd-fonts</span><br><span class="line"> </span><br><span class="line">./install.sh</span><br></pre></td></tr></table></figure>
+
+<p>安装完成之后 <code>终端</code> 设置中更换字体</p>
+<p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/3462E238-A221-4FDD-857E-25AEF613DF5E_2/PCtNeZ8SgF74q856rtrhvTmM1uNwKdH2zMVgR2cKOSMz/Image.png" alt="Image.png"></p>
+<h2 id="安装-nodejs"><a href="#安装-nodejs" class="headerlink" title="安装 nodejs"></a>安装 nodejs</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">asdf add plugin nodejs</span><br><span class="line"></span><br><span class="line">asdf list all nodejs</span><br><span class="line"></span><br><span class="line">asdf install nodejs 19.4.0</span><br><span class="line"></span><br><span class="line">asdf global nodejs 19.4.0</span><br><span class="line"></span><br><span class="line">node -v</span><br></pre></td></tr></table></figure>
+
+<h2 id="克隆-up主-仓库"><a href="#克隆-up主-仓库" class="headerlink" title="克隆 up主 仓库"></a>克隆 up主 仓库</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.config/</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/yaocccc/nvim</span><br></pre></td></tr></table></figure>
+
+<h2 id="打开-nvim-执行包同步"><a href="#打开-nvim-执行包同步" class="headerlink" title="打开 nvim 执行包同步"></a>打开 nvim 执行包同步</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvim</span><br><span class="line"></span><br><span class="line">:PackerSync</span><br></pre></td></tr></table></figure>
+
+<h2 id="查看完成效果"><a href="#查看完成效果" class="headerlink" title="查看完成效果"></a>查看完成效果</h2><p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/972D8306-B01B-4665-99B5-DC2A76EAEB6B/2EC81812-DDD5-4E9B-9144-F9C544B50986_2/MY5kuG2qr2UCecstd8kSuAecy0T1gtDlbf9eVAJcY9sz/Image.png" alt="Image.png"></p>
 ]]></content>
+      <categories>
+        <category>MacOS</category>
+      </categories>
+      <tags>
+        <tag>MacOS</tag>
+      </tags>
   </entry>
 </search>
