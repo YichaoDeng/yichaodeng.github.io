@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>【一记】部署Hexo-NexT博客</title>
+    <url>/2023/01/21/00-start-hexo/</url>
+    <content><![CDATA[<blockquote>
+<p>default is the best ~!</p>
+</blockquote>
+<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1. global (my choice)</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. local</span></span><br><span class="line">npm install hexo</span><br><span class="line"></span><br><span class="line"><span class="comment"># choose 1 or 2 -&gt; install</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. uninstall</span></span><br><span class="line">npm uninstall hexo</span><br></pre></td></tr></table></figure>
+
+<p>   官方参考：</p>
+<p><a href="https://hexo.io/zh-cn/docs/">Hexo官方文档</a></p>
+<span id="more"></span>
+
+<h2 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a>初始化仓库</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init [blog-repo-name]</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> [blog-repo-name]</span><br><span class="line"></span><br><span class="line">git init</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line"></span><br><span class="line">git branch -M master</span><br><span class="line"></span><br><span class="line">git remote add origin git@github.com:[user-name]/[repo-name].git</span><br><span class="line"></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+
+<h2 id="下载-NexT-主题"><a href="#下载-NexT-主题" class="headerlink" title="下载 NexT 主题"></a>下载 NexT 主题</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> [blog-dir]</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>官方指引：<br><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/INSTALLATION.md">hexo-theme-next</a></p>
+<h2 id="配置-NexT-主题"><a href="#配置-NexT-主题" class="headerlink" title="配置 NexT 主题"></a>配置 NexT 主题</h2><p><img src="https://res.craft.do/user/full/0911179a-5ddb-abdb-9353-a5ee6fd2eac7/doc/1EC76D1D-2C9E-4339-99F6-7E767E14D422/45D8388D-7E23-426C-B5B0-46258AA83FF6_2/QMKgGCf0zoc16Kxhxtq1vuuVFTuymv6mKLthCy5NVHAz/Image.png" alt="Image.png"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># use webbrowser visit http://localhost:4000</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="设置部署站点"><a href="#设置部署站点" class="headerlink" title="设置部署站点"></a>设置部署站点</h2><p>   编辑 _<code>config.yml</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">  	repo:</span><br><span class="line">		github: git@github.com:[user-name]/[user-name].github.io.git</span><br><span class="line">  	branch: master</span><br></pre></td></tr></table></figure>
+
+<h2 id="拷贝并修改主题配置文件"><a href="#拷贝并修改主题配置文件" class="headerlink" title="拷贝并修改主题配置文件"></a>拷贝并修改主题配置文件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cp</span> _config.yml ../../_config.next.yml</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># use editor to modify your custom settins</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安装部署插件"><a href="#安装部署插件" class="headerlink" title="安装部署插件"></a>安装部署插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br><span class="line"></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/01/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<span id="more"></span>
+
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
