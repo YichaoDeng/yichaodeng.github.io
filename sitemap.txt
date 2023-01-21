@@ -6,6 +6,6 @@ https://yichaodeng.github.io/tags/index.html
 https://yichaodeng.github.io/categories/index.html
 https://yichaodeng.github.io/
 https://yichaodeng.github.io/tags/%E5%8D%9A%E5%AE%A2/
-https://yichaodeng.github.io/tags/MacOS/
+https://yichaodeng.github.io/tags/nvim/
 https://yichaodeng.github.io/categories/%E5%8D%9A%E5%AE%A2/
-https://yichaodeng.github.io/categories/MacOS/
+https://yichaodeng.github.io/categories/nvim/
