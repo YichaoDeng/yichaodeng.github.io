@@ -5,11 +5,20 @@
     <link>https://yichaodeng.github.io/categories/</link>
     <description>Recent content in 分类 on YichaoDeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yichaodeng.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yichaodeng.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>neovim</title>
+      <link>https://yichaodeng.github.io/categories/neovim/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichaodeng.github.io/categories/neovim/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blog</title>
       <link>https://yichaodeng.github.io/categories/blog/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://yichaodeng.github.io/categories/blog/</guid>
       <description></description>
@@ -18,18 +27,9 @@
     <item>
       <title>hexo</title>
       <link>https://yichaodeng.github.io/categories/hexo/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://yichaodeng.github.io/categories/hexo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neovim</title>
-      <link>https://yichaodeng.github.io/categories/neovim/</link>
-      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://yichaodeng.github.io/categories/neovim/</guid>
       <description></description>
     </item>
     
