@@ -1,97 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yichaodeng.github.io/2023/01/22/01-start-neovim/</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/2023/01/21/00-start-hexo/</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/lib/pace/README.html</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/about/index.html</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/tags/index.html</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/categories/index.html</loc>
-    
-    <lastmod>2023-01-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-
-  <url>
+    <loc>https://yichaodeng.github.io/posts/00-start-neovim/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yichaodeng.github.io/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2023-01-22T14:38:41+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/about/</loc>
+    <lastmod>2023-01-22T14:38:41+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/archives/</loc>
+    <lastmod>2023-01-22T14:38:41+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/tags/neovim/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/categories/neovim/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/posts/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/tags/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/categories/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/search/</loc>
   </url>
-
-  
-  <url>
-    <loc>https://yichaodeng.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/tags/nvim/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-
-  
-  <url>
-    <loc>https://yichaodeng.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yichaodeng.github.io/categories/nvim/</loc>
-    <lastmod>2023-01-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 </urlset>
