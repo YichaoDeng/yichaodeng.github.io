@@ -5,7 +5,34 @@
     <link>https://yichaodeng.github.io/tags/</link>
     <description>Recent content in 标签 on YichaoDeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yichaodeng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yichaodeng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://yichaodeng.github.io/tags/blog/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichaodeng.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo</title>
+      <link>https://yichaodeng.github.io/tags/hexo/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichaodeng.github.io/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NexT</title>
+      <link>https://yichaodeng.github.io/tags/next/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://yichaodeng.github.io/tags/next/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>neovim</title>
       <link>https://yichaodeng.github.io/tags/neovim/</link>
