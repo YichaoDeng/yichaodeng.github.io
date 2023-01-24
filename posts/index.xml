@@ -5,7 +5,16 @@
     <link>https://yichaodeng.github.io/posts/</link>
     <description>Recent content in Posts on YichaoDeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 22 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yichaodeng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 15:28:17 +0800</lastBuildDate><atom:link href="https://yichaodeng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS安装与配置PyQt5</title>
+      <link>https://yichaodeng.github.io/posts/02-start-pyqt/</link>
+      <pubDate>Tue, 24 Jan 2023 15:28:17 +0800</pubDate>
+      
+      <guid>https://yichaodeng.github.io/posts/02-start-pyqt/</guid>
+      <description>简单记录MacOS安装与配置PyQt5</description>
+    </item>
+    
     <item>
       <title>NeoVim的安装与扩展配置</title>
       <link>https://yichaodeng.github.io/posts/00-start-neovim/</link>
