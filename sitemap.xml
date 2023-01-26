@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yichaodeng.github.io/posts/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/tags/python/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/categories/python/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/posts/03-python-all/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/tags/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yichaodeng.github.io/categories/</loc>
+    <lastmod>2023-01-26T18:10:37+08:00</lastmod>
+  </url><url>
     <loc>https://yichaodeng.github.io/tags/macos/</loc>
     <lastmod>2023-01-24T15:28:17+08:00</lastmod>
   </url><url>
     <loc>https://yichaodeng.github.io/posts/02-start-pyqt/</loc>
     <lastmod>2023-01-24T15:28:17+08:00</lastmod>
   </url><url>
-    <loc>https://yichaodeng.github.io/posts/</loc>
-    <lastmod>2023-01-24T15:28:17+08:00</lastmod>
-  </url><url>
     <loc>https://yichaodeng.github.io/tags/pyqt/</loc>
     <lastmod>2023-01-24T15:28:17+08:00</lastmod>
   </url><url>
     <loc>https://yichaodeng.github.io/categories/pyqt/</loc>
-    <lastmod>2023-01-24T15:28:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yichaodeng.github.io/</loc>
-    <lastmod>2023-01-24T15:28:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yichaodeng.github.io/tags/</loc>
-    <lastmod>2023-01-24T15:28:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yichaodeng.github.io/categories/</loc>
     <lastmod>2023-01-24T15:28:17+08:00</lastmod>
   </url><url>
     <loc>https://yichaodeng.github.io/about/</loc>

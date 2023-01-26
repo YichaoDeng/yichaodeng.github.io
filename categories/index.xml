@@ -5,7 +5,16 @@
     <link>https://yichaodeng.github.io/categories/</link>
     <description>Recent content in 分类 on YichaoDeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Jan 2023 15:28:17 +0800</lastBuildDate><atom:link href="https://yichaodeng.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 18:10:37 +0800</lastBuildDate><atom:link href="https://yichaodeng.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://yichaodeng.github.io/categories/python/</link>
+      <pubDate>Thu, 26 Jan 2023 18:10:37 +0800</pubDate>
+      
+      <guid>https://yichaodeng.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>PyQt</title>
       <link>https://yichaodeng.github.io/categories/pyqt/</link>
