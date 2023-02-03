@@ -5,7 +5,25 @@
     <link>https://yichaodeng.github.io/</link>
     <description>Recent content on YichaoDeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Jan 2023 01:02:33 +0800</lastBuildDate><atom:link href="https://yichaodeng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Feb 2023 01:11:09 +0800</lastBuildDate><atom:link href="https://yichaodeng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim 基础操作总结</title>
+      <link>https://yichaodeng.github.io/posts/06-vim-basic/</link>
+      <pubDate>Sat, 04 Feb 2023 01:11:09 +0800</pubDate>
+      
+      <guid>https://yichaodeng.github.io/posts/06-vim-basic/</guid>
+      <description>记录一些 vim 的基本操作</description>
+    </item>
+    
+    <item>
+      <title>Python中__slots__的用法与作用</title>
+      <link>https://yichaodeng.github.io/posts/05-python-slots/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://yichaodeng.github.io/posts/05-python-slots/</guid>
+      <description>摘自: https://www.cnblogs.com/rainfd/p/slots.html</description>
+    </item>
+    
     <item>
       <title>Python的threading模块中Lock和RLock区别</title>
       <link>https://yichaodeng.github.io/posts/04-python-lock-rlock/</link>
